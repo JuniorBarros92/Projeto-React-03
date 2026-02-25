@@ -11,7 +11,7 @@ function Home() {
   }
   return (
     <>
-    <Header />
+    <Header title="Oi dionisio" />
       <h1 className="h1-vermelho">ola mundo tudo bem</h1>
       <button onClick={btnClick}>clique me!</button>
       <p>{contador} cliques</p>
