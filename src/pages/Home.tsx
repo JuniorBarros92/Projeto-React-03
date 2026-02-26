@@ -1,6 +1,7 @@
 import "./Home.css"
 import {useState} from "react"
 import Header from "../components/Header"
+import { Link } from "react-router-dom"
 
 function Home() {
 
@@ -15,6 +16,7 @@ function Home() {
       <h1 className="h1-vermelho">ola mundo tudo bem</h1>
       <button onClick={btnClick}>clique me!</button>
       <p>{contador} cliques</p>
+      <Link to="/cadastro">Cadastrar link</Link>
     </>
   );
 }
